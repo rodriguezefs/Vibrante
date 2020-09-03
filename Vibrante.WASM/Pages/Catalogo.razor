@@ -14,7 +14,8 @@
             <div class="split">
                 @foreach (var producto in productos)
                 {
-                    <a href="Detalle/@producto.Id" class="producto">
+                    @*<a href="Detalle/@producto.Id" class="producto">*@
+                    <a href="#" class="producto">
                         <img src="@producto.UrlFoto" />
                         <p class="product-name">@producto.Nombre</p>
                     </a>
