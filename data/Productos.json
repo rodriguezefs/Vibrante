@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "nombre": "Genesis",
+    "urlFoto": "img/Trajes/Genesis_Arena.png"
+  },
+  {
+    "id": 2,
+    "nombre": "Brasileno",
+    "urlFoto": "img/Trajes/Brasileno_Arena.png"
+  },
+  {
+    "id": 3,
+    "nombre": "Brasileno Barbie",
+    "urlFoto": "img/Trajes/Brasileno_Barbie_Arena.png"
+  },
+  {
+    "id": 4,
+    "nombre": "Estampado",
+    "urlFoto": "img/Trajes/Estampado_Arena.png"
+  },
+  {
+    "id": 5,
+    "nombre": "Genesis Estampado",
+    "urlFoto": "img/Trajes/Genesis_Stampado_Arena.png"
+  },
+  {
+    "id": 6,
+    "nombre": "One Shoulder Estampado",
+    "urlFoto": "img/Trajes/One_Shoulder_Stampado_Arena.png"
+  },
+  {
+    "id": 7,
+    "nombre": "Princess.png",
+    "urlFoto": "img/Trajes/Princess_Arena.png"
+  },
+  {
+    "id": 8,
+    "nombre": "Sexy Sport Arena",
+    "urlFoto": "img/Trajes/Sexy_Sport_Arena.png"
+  },
+  {
+    "id": 9,
+    "nombre": "Straples Rojo",
+    "urlFoto": "img/Trajes/Straples_Rojo_Arena.png"
+  },
+  {
+    "id": 10,
+    "nombre": "Strapless Leopardo",
+    "urlFoto": "img/Trajes/Strapless_Leopardo_Arena.png"
+  },
+  {
+    "id": 11,
+    "nombre": "Sweet Sensuality",
+    "urlFoto": "img/Trajes/Sweet_Sensuality_Arena.png"
+  }
+]

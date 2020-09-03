@@ -1,0 +1,19 @@
+﻿$font-stack: 'Noto Sans JP', sans-serif;
+$bg-color: rgba(212, 199, 180, 0.25); 
+$primary-color: #6C017B;
+$secondary-color: #F00680;
+$text-color: #eee;
+
+@function set-text-color($color) {
+    @if(lightness($color) > 70) {
+        @return #333;
+    }
+    @else {
+        @return #fff;
+    }
+}
+
+@mixin set-background($color) {
+    background-color: $color;
+    color: set-text-color($color);
+}
