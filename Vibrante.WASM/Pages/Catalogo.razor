@@ -1,0 +1,35 @@
+﻿@page "/catalogo"
+@inject HttpClient Http
+
+<div class="content">
+    <h1>Catálogo</h1>
+
+    @if (productos == null)
+    {
+        <p><em>Cargando...</em></p>
+    }
+    else
+    {
+        <section class="catalogo-container">
+            <div class="split">
+                @foreach (var producto in productos)
+                {
+                    <a href="Detalle/@producto.Id" class="producto">
+                        <img src="@producto.UrlFoto" />
+                        <p class="product-name">@producto.Nombre</p>
+                    </a>
+                }
+            </div>
+        </section>
+    }
+</div>
+<Footer />
+
+@code {
+    private ProductoModel[] productos;
+
+    protected override async Task OnInitializedAsync()
+    {
+        productos = await Http.GetFromJsonAsync<ProductoModel[]>("data/Productos.json");
+    }
+}

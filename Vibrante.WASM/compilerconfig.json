@@ -1,0 +1,7 @@
+[
+  {
+    "inputFile": "wwwroot/scss/app.scss",
+    "minify": { "enabled": true },
+    "outputFile": "wwwroot/css/app.css"
+  }
+]
